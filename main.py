@@ -10,13 +10,14 @@ tokenizer = AutoTokenizer.from_pretrained('./model_save')
 labels = ['Cyberbullying', 'Insult', 'Profanity', 'Sarcasm', 'Threat', 'Exclusion', 'Pornography', 'Spam']
 id2label = {idx:label for idx, label in enumerate(labels)}
 label2id = {label:idx for idx, label in enumerate(labels)}
-#"""scp -r \Users\Sunshine\Desktop\env\nlp NLPServer@20.116.58.131:/home/NLPServer/Nlp"""
+
 app = FastAPI()
 
 @app.get("/")
 async def root():
     docs_path = 'http://127.0.0.1:8000/docs'
     return f"Hello welcome to this sentiment classifier. Visit {docs_path} to try out."  
+
 # function should call model and predict tags 
 
 @app.post("/predict")
