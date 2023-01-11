@@ -18,7 +18,7 @@ app = FastAPI()
 async def root():
     docs_path = 'http://127.0.0.1:8000/docs'
     return f"Hello welcome to this sentiment classifier. Visit {docs_path} to try out."  
-    
+
 # function should call model and predict tags 
 
 @app.post("/predict")
