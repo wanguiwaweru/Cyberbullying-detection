@@ -2,7 +2,7 @@
 
 
 ⚙️ Features
-- sentiment classification under 7 categories. ['Cyberbullying', 'Insult', 'Profanity','Sarcasm', 'Threat', 'Exclusion', 'Pornography', 'Spam']
+- sentiment classification under 7 categories.
 - classification confidence level
 
 Built With 🛠
