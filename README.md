@@ -19,8 +19,8 @@ A machine learning system for detecting whether comments posted have harmful sen
 ## Getting Started 
 
 ### Prerequisites
-[Python 3.9](https://www.python.org/downloads/)
-[Git LFS](https://git-lfs.com/)
+- [Python 3.9](https://www.python.org/downloads/)
+- [Git LFS](https://git-lfs.com/)
 
 
 To get started, clone the repo and run: `pip install -r requirements.txt`
